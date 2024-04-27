@@ -36,7 +36,6 @@ This project requires an API key from Weatherbit to retrieve weather information
 1. Visit the Weatherbit API website and sign up for an account.
 2. Once logged in, navigate to the API Key section or dashboard to generate a new API key.
 3. Copy the generated API key and paste it into the apiKey variable in the script.js file of this project.<br>
-
    const apiKey = "YOUR_API_KEY_HERE";
 
 ## Screenshots
