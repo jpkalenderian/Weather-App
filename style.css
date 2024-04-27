@@ -1,0 +1,213 @@
+body {
+  background-color: lightblue;
+}
+
+#searched-city {
+  position: absolute;
+  margin: auto;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#search-btn {
+  position: absolute;
+  margin: auto;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: rgb(105, 105, 105);
+  border: none;
+}
+
+#search-btn:hover {
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+
+.card {
+  position: absolute;
+  margin: auto;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  height: 420px;
+}
+
+@media screen and (max-width: 501px) {
+  #searched-city {
+    position: absolute;
+    margin: auto;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #search-btn {
+    position: absolute;
+    margin: auto;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 100px;
+    height: 250px;
+  }
+
+  #card-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (width: 540px) {
+  #searched-city {
+    position: absolute;
+    margin: auto;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #search-btn {
+    position: absolute;
+    margin: auto;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 100px;
+    height: 250px;
+  }
+
+  #card-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (width: 1024px) {
+  #searched-city {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #search-btn {
+    position: fixed;
+    margin: auto;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 100px;
+    height: 250px;
+  }
+
+  #card-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (width: 1024px) and (height:1366px) {
+  #searched-city {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #search-btn {
+    position: fixed;
+    margin: auto;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 100px;
+    height: 250px;
+  }
+
+  #card-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (width: 1280px) {
+  #searched-city {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #search-btn {
+    position: fixed;
+    margin: auto;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 100px;
+    height: 250px;
+  }
+
+  #card-image {
+    width: 100px;
+    height: 100px;
+  }
+}
